@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time Zone Meeting Planner</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.3/luxon.min.js"></script>
+</head>
+<body>
+  <h1>🕒 Time Zone Meeting Planner</h1>
+
+  <div id="inputSection">
+    <input type="text" id="cityInput" placeholder="Enter city/timezone (e.g. Asia/Kolkata)" />
+    <button id="addCityBtn">Add City</button>
+    <button id="calculateBtn">Find Overlapping Time Slots</button>
+  </div>
+
+  <div id="cityList"></div>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
